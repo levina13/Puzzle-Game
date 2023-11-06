@@ -315,6 +315,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -461,3 +462,5 @@ Received Import Request.
 Start importing Assets/Prefabs/MenuButton.prefab using Guid(a8fbb8d959dbb7d42bbc5e028317e8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6f7a0c53b3d77b5e344ab0efb833ca') in 0.507084 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 23
+=======
+>>>>>>> 2e08df84f77bcf2a63dcc2e3bae763cae72550b7

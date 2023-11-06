@@ -403,6 +403,7 @@ Received Import Request.
 Start importing Assets/1. Mouse.jpg using Guid(f9e1ff0bd4d722a45b48de6e1aba9f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0865b253e69144aad258e219525abe') in 0.185638 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+<<<<<<< HEAD
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -589,3 +590,5 @@ Received Import Request.
 Start importing Assets/Prefabs/PlayButton.prefab using Guid(05d9d871bc9fe7840bf59a1076924a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60c756cb85a47706a1784f52dec0709') in 0.153082 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 23
+=======
+>>>>>>> 2e08df84f77bcf2a63dcc2e3bae763cae72550b7
