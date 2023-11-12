@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 31482811}
   - component: {fileID: 31482810}
   - component: {fileID: 31482812}
+  - component: {fileID: 31482813}
   m_Layer: 0
   m_Name: Pieces_1 (8)
   m_TagString: puzzle
@@ -236,7 +237,7 @@ Transform:
   m_GameObject: {fileID: 31482807}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.29909998, y: -0.3639, z: 89.993904}
+  m_LocalPosition: {x: -0.29909998, y: -0.3639, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -403,6 +404,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.74, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &31482813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31482807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &54421803
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +433,7 @@ GameObject:
   - component: {fileID: 54421807}
   - component: {fileID: 54421806}
   - component: {fileID: 54421808}
+  - component: {fileID: 54421809}
   m_Layer: 0
   m_Name: Pieces (0)
   m_TagString: puzzle
@@ -432,7 +450,7 @@ Transform:
   m_GameObject: {fileID: 54421803}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.064, y: -0.215, z: 89.993904}
+  m_LocalPosition: {x: -1.064, y: -0.215, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -599,6 +617,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.69, y: 2.23}
   m_EdgeRadius: 0
+--- !u!114 &54421809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54421803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &75615216
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,6 +646,7 @@ GameObject:
   - component: {fileID: 75615220}
   - component: {fileID: 75615219}
   - component: {fileID: 75615221}
+  - component: {fileID: 75615222}
   m_Layer: 0
   m_Name: Pieces_2 (6)
   m_TagString: puzzle
@@ -628,7 +663,7 @@ Transform:
   m_GameObject: {fileID: 75615216}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.65699995, y: -0.3611, z: 89.993904}
+  m_LocalPosition: {x: -0.65699995, y: -0.3611, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -795,6 +830,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &75615222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75615216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &100123081
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,6 +943,7 @@ GameObject:
   - component: {fileID: 108985616}
   - component: {fileID: 108985615}
   - component: {fileID: 108985617}
+  - component: {fileID: 108985618}
   m_Layer: 0
   m_Name: Pieces_0 (3)
   m_TagString: puzzle
@@ -908,7 +960,7 @@ Transform:
   m_GameObject: {fileID: 108985612}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.86939996, y: -0.3357, z: 89.993904}
+  m_LocalPosition: {x: -0.86939996, y: -0.3357, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1075,6 +1127,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.69, y: 2.23}
   m_EdgeRadius: 0
+--- !u!114 &108985618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108985612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &110675230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,6 +1492,7 @@ GameObject:
   - component: {fileID: 176487296}
   - component: {fileID: 176487295}
   - component: {fileID: 176487297}
+  - component: {fileID: 176487298}
   m_Layer: 0
   m_Name: Pieces_2
   m_TagString: puzzle
@@ -1440,7 +1509,7 @@ Transform:
   m_GameObject: {fileID: 176487292}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0352, y: -0.35999998, z: 89.993904}
+  m_LocalPosition: {x: -1.0352, y: -0.35999998, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1607,6 +1676,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &176487298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176487292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &188178074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,6 +1705,7 @@ GameObject:
   - component: {fileID: 188178078}
   - component: {fileID: 188178077}
   - component: {fileID: 188178079}
+  - component: {fileID: 188178080}
   m_Layer: 0
   m_Name: Pieces_1 (3)
   m_TagString: puzzle
@@ -1636,7 +1722,7 @@ Transform:
   m_GameObject: {fileID: 188178074}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.49589998, y: -0.19, z: 89.993904}
+  m_LocalPosition: {x: -0.49589998, y: -0.19, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1803,6 +1889,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.74, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &188178080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188178074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &242294209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,6 +1918,7 @@ GameObject:
   - component: {fileID: 242294213}
   - component: {fileID: 242294212}
   - component: {fileID: 242294214}
+  - component: {fileID: 242294215}
   m_Layer: 0
   m_Name: Pieces_2 (4)
   m_TagString: puzzle
@@ -1832,7 +1935,7 @@ Transform:
   m_GameObject: {fileID: 242294209}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.30599996, y: -0.215, z: 89.993904}
+  m_LocalPosition: {x: -0.30599996, y: -0.215, z: 0}
   m_LocalScale: {x: 0.10003107, y: 0.11286513, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1999,6 +2102,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &242294215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242294209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &260162339
 GameObject:
   m_ObjectHideFlags: 0
@@ -2096,6 +2215,7 @@ GameObject:
   - component: {fileID: 277515189}
   - component: {fileID: 277515188}
   - component: {fileID: 277515190}
+  - component: {fileID: 277515191}
   m_Layer: 0
   m_Name: Pieces_0
   m_TagString: puzzle
@@ -2112,7 +2232,7 @@ Transform:
   m_GameObject: {fileID: 277515185}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.70301414, w: 0.7111759}
-  m_LocalPosition: {x: -1.0365, y: -0.70110005, z: 89.993904}
+  m_LocalPosition: {x: -1.0365, y: -0.70110005, z: 0}
   m_LocalScale: {x: 0.10003105, y: 0.112865105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2279,6 +2399,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.69, y: 2.23}
   m_EdgeRadius: 0
+--- !u!114 &277515191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277515185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &337667628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,6 +2428,7 @@ GameObject:
   - component: {fileID: 337667632}
   - component: {fileID: 337667631}
   - component: {fileID: 337667633}
+  - component: {fileID: 337667634}
   m_Layer: 0
   m_Name: Pieces_3
   m_TagString: puzzle
@@ -2308,7 +2445,7 @@ Transform:
   m_GameObject: {fileID: 337667628}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.49259996, y: -0.3581, z: 89.993904}
+  m_LocalPosition: {x: -0.49259996, y: -0.3581, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2475,6 +2612,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.72, y: 2.74}
   m_EdgeRadius: 0
+--- !u!114 &337667634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337667628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &364369741
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,6 +2641,7 @@ GameObject:
   - component: {fileID: 364369745}
   - component: {fileID: 364369744}
   - component: {fileID: 364369746}
+  - component: {fileID: 364369747}
   m_Layer: 0
   m_Name: Pieces_1 (1)
   m_TagString: puzzle
@@ -2504,7 +2658,7 @@ Transform:
   m_GameObject: {fileID: 364369741}
   serializedVersion: 2
   m_LocalRotation: {x: -0.043182272, y: 0.005472742, z: 0.7079608, w: 0.70490915}
-  m_LocalPosition: {x: -1.0648, y: -0.5321, z: 89.993904}
+  m_LocalPosition: {x: -1.0648, y: -0.5321, z: 0}
   m_LocalScale: {x: 0.10003105, y: 0.112865105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2671,6 +2825,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.74, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &364369747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364369741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &373084121
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +2938,7 @@ GameObject:
   - component: {fileID: 632471369}
   - component: {fileID: 632471368}
   - component: {fileID: 632471370}
+  - component: {fileID: 632471371}
   m_Layer: 0
   m_Name: Pieces_1 (4)
   m_TagString: puzzle
@@ -2784,7 +2955,7 @@ Transform:
   m_GameObject: {fileID: 632471365}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.30279997, y: -0.70320004, z: 89.993904}
+  m_LocalPosition: {x: -0.30279997, y: -0.70320004, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2951,6 +3122,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.74, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &632471371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632471365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &672713662
 GameObject:
   m_ObjectHideFlags: 0
@@ -3056,7 +3243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64abc0c214881514fb4e964c05c624c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectedPiece: {fileID: 54421803}
+  SelectedPiece: {fileID: 0}
 --- !u!1 &690818859
 GameObject:
   m_ObjectHideFlags: 0
@@ -3154,6 +3341,7 @@ GameObject:
   - component: {fileID: 699179424}
   - component: {fileID: 699179423}
   - component: {fileID: 699179425}
+  - component: {fileID: 699179426}
   m_Layer: 0
   m_Name: Pieces_2 (5)
   m_TagString: puzzle
@@ -3170,7 +3358,7 @@ Transform:
   m_GameObject: {fileID: 699179420}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.13809997, y: -0.5321, z: 89.993904}
+  m_LocalPosition: {x: -0.13809997, y: -0.5321, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3337,6 +3525,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &699179426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699179420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &759672518
 GameObject:
   m_ObjectHideFlags: 0
@@ -3350,6 +3554,7 @@ GameObject:
   - component: {fileID: 759672522}
   - component: {fileID: 759672521}
   - component: {fileID: 759672523}
+  - component: {fileID: 759672524}
   m_Layer: 0
   m_Name: Pieces_2 (8)
   m_TagString: puzzle
@@ -3366,7 +3571,7 @@ Transform:
   m_GameObject: {fileID: 759672518}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.29909998, y: -0.5599, z: 89.993904}
+  m_LocalPosition: {x: -0.29909998, y: -0.5599, z: 0}
   m_LocalScale: {x: 0.10003107, y: 0.11286513, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3533,6 +3738,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &759672524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759672518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &761526540
 GameObject:
   m_ObjectHideFlags: 0
@@ -3950,6 +4171,7 @@ GameObject:
   - component: {fileID: 922710895}
   - component: {fileID: 922710894}
   - component: {fileID: 922710896}
+  - component: {fileID: 922710897}
   m_Layer: 0
   m_Name: Pieces_2 (2)
   m_TagString: puzzle
@@ -3966,7 +4188,7 @@ Transform:
   m_GameObject: {fileID: 922710891}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.87619996, y: -0.67620003, z: 89.993904}
+  m_LocalPosition: {x: -0.87619996, y: -0.67620003, z: 0}
   m_LocalScale: {x: 0.10003107, y: 0.11286513, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4133,6 +4355,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &922710897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922710891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &988822363
 GameObject:
   m_ObjectHideFlags: 0
@@ -4314,6 +4552,7 @@ GameObject:
   - component: {fileID: 1078509071}
   - component: {fileID: 1078509070}
   - component: {fileID: 1078509072}
+  - component: {fileID: 1078509073}
   m_Layer: 0
   m_Name: Pieces_2 (1)
   m_TagString: puzzle
@@ -4330,7 +4569,7 @@ Transform:
   m_GameObject: {fileID: 1078509067}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.6831, y: -0.215, z: 89.993904}
+  m_LocalPosition: {x: -0.6831, y: -0.215, z: 0}
   m_LocalScale: {x: 0.10003107, y: 0.11286513, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4497,6 +4736,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &1078509073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078509067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &1159278965
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,6 +4765,7 @@ GameObject:
   - component: {fileID: 1159278969}
   - component: {fileID: 1159278968}
   - component: {fileID: 1159278970}
+  - component: {fileID: 1159278971}
   m_Layer: 0
   m_Name: Pieces_1 (7)
   m_TagString: puzzle
@@ -4526,7 +4782,7 @@ Transform:
   m_GameObject: {fileID: 1159278965}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.6888, y: -0.5349, z: 89.993904}
+  m_LocalPosition: {x: -0.6888, y: -0.5349, z: 0}
   m_LocalScale: {x: 0.10003107, y: 0.11286513, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4693,6 +4949,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.74, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &1159278971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159278965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &1197194785
 GameObject:
   m_ObjectHideFlags: 0
@@ -4706,6 +4978,7 @@ GameObject:
   - component: {fileID: 1197194789}
   - component: {fileID: 1197194788}
   - component: {fileID: 1197194790}
+  - component: {fileID: 1197194791}
   m_Layer: 0
   m_Name: Pieces_0 (2)
   m_TagString: puzzle
@@ -4722,7 +4995,7 @@ Transform:
   m_GameObject: {fileID: 1197194785}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -1, w: 0}
-  m_LocalPosition: {x: -0.10989997, y: -0.67990005, z: 89.993904}
+  m_LocalPosition: {x: -0.10989997, y: -0.67990005, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4889,6 +5162,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.69, y: 2.23}
   m_EdgeRadius: 0
+--- !u!114 &1197194791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197194785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &1202562412
 GameObject:
   m_ObjectHideFlags: 0
@@ -4902,6 +5191,7 @@ GameObject:
   - component: {fileID: 1202562416}
   - component: {fileID: 1202562415}
   - component: {fileID: 1202562417}
+  - component: {fileID: 1202562418}
   m_Layer: 0
   m_Name: Pieces_1
   m_TagString: puzzle
@@ -4918,7 +5208,7 @@ Transform:
   m_GameObject: {fileID: 1202562412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8739, y: -0.19, z: 89.993904}
+  m_LocalPosition: {x: -0.8739, y: -0.19, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5085,6 +5375,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.74, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &1202562418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202562412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &1230554455
 GameObject:
   m_ObjectHideFlags: 0
@@ -5266,6 +5572,7 @@ GameObject:
   - component: {fileID: 1377775360}
   - component: {fileID: 1377775359}
   - component: {fileID: 1377775361}
+  - component: {fileID: 1377775362}
   m_Layer: 0
   m_Name: Pieces_1 (6)
   m_TagString: puzzle
@@ -5282,7 +5589,7 @@ Transform:
   m_GameObject: {fileID: 1377775356}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8782, y: -0.53290004, z: 89.993904}
+  m_LocalPosition: {x: -0.8782, y: -0.53290004, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5449,6 +5756,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.74, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &1377775362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377775356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &1407322318
 GameObject:
   m_ObjectHideFlags: 0
@@ -5462,6 +5785,7 @@ GameObject:
   - component: {fileID: 1407322322}
   - component: {fileID: 1407322321}
   - component: {fileID: 1407322323}
+  - component: {fileID: 1407322324}
   m_Layer: 0
   m_Name: Pieces_2 (7)
   m_TagString: puzzle
@@ -5478,7 +5802,7 @@ Transform:
   m_GameObject: {fileID: 1407322318}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.46719998, y: -0.5321, z: 89.993904}
+  m_LocalPosition: {x: -0.46719998, y: -0.5321, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5645,6 +5969,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &1407322324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407322318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &1481355524
 GameObject:
   m_ObjectHideFlags: 0
@@ -5658,6 +5998,7 @@ GameObject:
   - component: {fileID: 1481355528}
   - component: {fileID: 1481355527}
   - component: {fileID: 1481355529}
+  - component: {fileID: 1481355530}
   m_Layer: 0
   m_Name: Pieces_1 (5)
   m_TagString: puzzle
@@ -5674,7 +6015,7 @@ Transform:
   m_GameObject: {fileID: 1481355524}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.109499976, y: -0.3639, z: 89.993904}
+  m_LocalPosition: {x: -0.109499976, y: -0.3639, z: 0}
   m_LocalScale: {x: 0.10003107, y: 0.11286513, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5841,6 +6182,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.74, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &1481355530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481355524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
+--- !u!1 &1494236511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1494236512}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1494236512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494236511}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.399, y: -1.041, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1526250133
 GameObject:
   m_ObjectHideFlags: 0
@@ -5854,6 +6242,7 @@ GameObject:
   - component: {fileID: 1526250137}
   - component: {fileID: 1526250136}
   - component: {fileID: 1526250138}
+  - component: {fileID: 1526250139}
   m_Layer: 0
   m_Name: Pieces_1 (2)
   m_TagString: puzzle
@@ -5870,7 +6259,7 @@ Transform:
   m_GameObject: {fileID: 1526250133}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.6831, y: -0.70220006, z: 89.993904}
+  m_LocalPosition: {x: -0.6831, y: -0.70220006, z: 0}
   m_LocalScale: {x: 0.112865105, y: 0.10003105, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -6037,6 +6426,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.74, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &1526250139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526250133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &1556698059
 GameObject:
   m_ObjectHideFlags: 0
@@ -6655,6 +7060,7 @@ GameObject:
   - component: {fileID: 1899691324}
   - component: {fileID: 1899691323}
   - component: {fileID: 1899691325}
+  - component: {fileID: 1899691326}
   m_Layer: 0
   m_Name: Pieces_0 (1)
   m_TagString: puzzle
@@ -6671,7 +7077,7 @@ Transform:
   m_GameObject: {fileID: 1899691320}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.14139996, y: -0.19, z: 89.993904}
+  m_LocalPosition: {x: -0.14139996, y: -0.19, z: 0}
   m_LocalScale: {x: 0.10003107, y: 0.11286513, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -6838,6 +7244,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.69, y: 2.23}
   m_EdgeRadius: 0
+--- !u!114 &1899691326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899691320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &2007202072
 GameObject:
   m_ObjectHideFlags: 0
@@ -6851,6 +7273,7 @@ GameObject:
   - component: {fileID: 2007202076}
   - component: {fileID: 2007202075}
   - component: {fileID: 2007202077}
+  - component: {fileID: 2007202078}
   m_Layer: 0
   m_Name: Pieces_2 (3)
   m_TagString: puzzle
@@ -6867,7 +7290,7 @@ Transform:
   m_GameObject: {fileID: 2007202072}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.48899996, y: -0.6779, z: 89.993904}
+  m_LocalPosition: {x: -0.48899996, y: -0.6779, z: 0}
   m_LocalScale: {x: 0.10003107, y: 0.11286513, z: 0.006096864}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -7034,6 +7457,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.72}
   m_EdgeRadius: 0
+--- !u!114 &2007202078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007202072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56880cd92c781c04daf10fa23ff1d0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RightPosition: {x: 0, y: 0, z: 0}
+  InRightPosition: 0
+  Selected: 0
+  distance: 0
 --- !u!1 &2120051516
 GameObject:
   m_ObjectHideFlags: 0
@@ -7149,3 +7588,4 @@ SceneRoots:
   - {fileID: 759672519}
   - {fileID: 1662415393}
   - {fileID: 761526543}
+  - {fileID: 1494236512}
