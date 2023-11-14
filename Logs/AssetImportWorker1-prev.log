@@ -1,17 +1,17 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7863 MB
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 6030 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+D:\UnityEditor\2022.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/KULIAh/SEMESTER 5/GAME PROGRAMMING/TUBES-Game
+D:/KULIAH/SEMESTER 5/Game programing/project/TUBES
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
@@ -57,15 +57,15 @@ Player connection [5592] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 28529
 Refreshing native plugins compatible for Editor in 29.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/KULIAh/SEMESTER 5/GAME PROGRAMMING/TUBES-Game/Assets
+[Subsystems] Discovering subsystems at path D:/UnityEditor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/KULIAH/SEMESTER 5/Game programing/project/TUBES/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x46b3)
-    Vendor:   Intel
-    VRAM:     3931 MB
-    Driver:   31.0.101.4032
+    Renderer: AMD Radeon(TM) Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     3015 MB
+    Driver:   31.0.12028.2
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
@@ -109,7 +109,7 @@ Domain Reload Profiling: 1236ms
 			ProcessInitializeOnLoadAttributes (267ms)
 			ProcessInitializeOnLoadMethodAttributes (92ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (4ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -167,6 +167,7 @@ Total: 6.359200 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.278600 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -202,8 +203,8 @@ Domain Reload Profiling: 2237ms
 	LoadAllAssembliesAndSetupDomain (226ms)
 		LoadAssemblies (308ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (48ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (6ms)
@@ -219,7 +220,7 @@ Domain Reload Profiling: 2237ms
 			ProcessInitializeOnLoadAttributes (507ms)
 			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (25ms)
 Refreshing native plugins compatible for Editor in 5.22 ms, found 4 plugins.
@@ -232,6 +233,7 @@ Total: 4.621300 ms (FindLiveObjects: 0.394400 ms CreateObjectMapping: 0.128800 m
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 

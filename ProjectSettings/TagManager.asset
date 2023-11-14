@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Undefined
   - puzzle
+  - batas
   - PCI bus
   layers:
   - Default
@@ -43,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Pieces
+    uniqueID: 4147996895
     locked: 0
