@@ -28,7 +28,6 @@ public class DragAndDrop : MonoBehaviour
                     SelectedPiece.GetComponent<PiecesScript>().Selected = true;
                     SelectedPiece.GetComponent<SortingGroup>().sortingOrder = OIL;
                     OIL++;
-                    Debug.Log("down");
                 }
             }
 

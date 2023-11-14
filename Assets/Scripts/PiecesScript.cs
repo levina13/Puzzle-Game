@@ -41,12 +41,10 @@ public class PiecesScript : MonoBehaviour
     void OnTriggerStay2D(Collider2D collider)
     {
         Inside = true;
-        Debug.Log("di dalam");
     }
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        Debug.Log("no longer colided");
         Inside = false;
     }
 }
