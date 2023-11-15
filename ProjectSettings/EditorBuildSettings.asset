@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Map.unity
     guid: da559e04969b2344d87a8e6dbec3c171
   - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: 80685bdcd0c994e4b969f1e5300c675c
+  - enabled: 1
     path: Assets/Scenes/puzzle.unity
     guid: f358194481ba9eb4dacc83bff4362fbe
+  - enabled: 1
+    path: Assets/Scenes/puzzle 1.unity
+    guid: fad71bae9fedb494bbb619f935617f56
   m_configObjects: {}
