@@ -6,6 +6,7 @@ using UnityEngine.Rendering;
 
 public class PiecesScript : MonoBehaviour
 {
+    public DragAndDrop dragAndDrop;
     public Vector3 RightPosition;
     public Vector3 BeforePosition;
     public bool InRightPosition;
@@ -33,6 +34,11 @@ public class PiecesScript : MonoBehaviour
                     transform.position = RightPosition;
                     InRightPosition = true;
                     GetComponent<SortingGroup>().sortingOrder = 0;
+                    dragAndDrop.CountRightPiece++;
+                    if (dragAndDrop.CountRightPiece == dragAndDrop.TotalPiece)
+                    {
+                        dragAndDrop.Win();
+                    }
                 }
             }
         }

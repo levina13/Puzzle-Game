@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class DragAndDrop : MonoBehaviour
 {
     public GameObject SelectedPiece;
+    public ManageScene manageScene;
     int OIL = 1;
+    public int TotalPiece;
+    public int CountRightPiece;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +57,12 @@ public class DragAndDrop : MonoBehaviour
         }
 
 
+    }
+
+    public void Win()
+    {
+        // change scene to win
+        manageScene.ChangeScene(0);
     }
     // void OnApplicationFocus(bool onFocus)
     // {
