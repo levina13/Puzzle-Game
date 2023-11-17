@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker16
 -projectPath
 D:/SEMESTER 5/Game Programming/TUBES-Game
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker16.log
 -srvPort
 56368
 Successfully changed project path to: D:/SEMESTER 5/Game Programming/TUBES-Game
@@ -49,12 +49,12 @@ D:/SEMESTER 5/Game Programming/TUBES-Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6104] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 130965693 [EditorId] 130965693 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3M6GNOF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11816] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2147278271 [EditorId] 2147278271 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3M6GNOF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6104] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 130965693 [EditorId] 130965693 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3M6GNOF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11816] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2147278271 [EditorId] 2147278271 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3M6GNOF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 1 workers.
-Refreshing native plugins compatible for Editor in 11261.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 24.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,5 +70,5 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly

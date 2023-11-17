@@ -9,6 +9,7 @@ public class DragAndDrop : MonoBehaviour
 {
     public GameObject SelectedPiece;
     public ManageScene manageScene;
+    public ProgressBar progressBar;
     int OIL = 1;
     public int TotalPiece;
     public int CountRightPiece;
@@ -33,6 +34,8 @@ public class DragAndDrop : MonoBehaviour
             TotalPiece = 80;
             batasWaktu = (StaticVar.level > 25) ? 300f : 240f;
         }
+        progressBar.SetMaxProgress(TotalPiece);
+
     }
 
     // Update is called once per frame
@@ -58,6 +61,11 @@ public class DragAndDrop : MonoBehaviour
     public void Lose()
     {
         manageScene.Lose();
+    }
+
+    public void UpdateRightPiece()
+    {
+        progressBar.SetProgress(CountRightPiece);
     }
 
     public void DisplayTime(float timeToDisplay)

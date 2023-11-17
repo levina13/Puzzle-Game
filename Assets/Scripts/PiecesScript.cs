@@ -35,6 +35,7 @@ public class PiecesScript : MonoBehaviour
                     InRightPosition = true;
                     GetComponent<SortingGroup>().sortingOrder = 0;
                     dragAndDrop.CountRightPiece++;
+                    dragAndDrop.UpdateRightPiece();
                     if (dragAndDrop.CountRightPiece == dragAndDrop.TotalPiece)
                     {
                         dragAndDrop.Win();
