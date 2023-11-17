@@ -131,6 +131,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2032801979}
     m_Modifications:
+    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 0.9570666
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 0.9570666
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 0.9811321
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016110282151010910, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016110282151010910, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1040436150, guid: 0671fdd975f6d1f419c7f251ccc41fc5, type: 3}
     - target: {fileID: 6450797983401728180, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Name
       value: MenuButton
@@ -161,11 +181,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 277.224
+      value: 119.405
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 82.254
+      value: 115.507
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -197,11 +217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 264
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -156.9
+      value: -165
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -213,6 +233,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8854384037809531311, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -269,7 +293,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516916192}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -662,8 +686,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -141.807, y: -156.9}
-  m_SizeDelta: {x: 277.224, y: 82.254}
+  m_AnchoredPosition: {x: -85.797, y: -169}
+  m_SizeDelta: {x: 119.405, y: 115.507}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677580727
 MonoBehaviour:
@@ -686,7 +710,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.5411765, g: 0.7058824, b: 0.8431373, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.78039217}
     m_HighlightedColor: {r: 0.9450981, g: 0.7019608, b: 0.94117653, a: 1}
     m_PressedColor: {r: 0.18823531, g: 0.9960785, b: 1, a: 1}
     m_SelectedColor: {r: 0.18823531, g: 0.9960785, b: 1, a: 1}
@@ -729,8 +753,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1239588469, guid: 0671fdd975f6d1f419c7f251ccc41fc5, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
