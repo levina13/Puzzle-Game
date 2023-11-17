@@ -563,6 +563,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2032801979}
     m_Modifications:
+    - target: {fileID: 2975219877994287367, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3801808498205040713, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
       propertyPath: m_Name
       value: Button
@@ -593,11 +597,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646540011583045353, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 293.822
+      value: 343
       objectReference: {fileID: 0}
     - target: {fileID: 5646540011583045353, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 95.244
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 5646540011583045353, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
       propertyPath: m_LocalPosition.x
@@ -629,11 +633,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646540011583045353, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.0000095367
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5646540011583045353, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -136
+      value: -108
       objectReference: {fileID: 0}
     - target: {fileID: 5646540011583045353, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -646,6 +650,18 @@ PrefabInstance:
     - target: {fileID: 5646540011583045353, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7053805798636586339, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7053805798636586339, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1783436686, guid: 0671fdd975f6d1f419c7f251ccc41fc5, type: 3}
+    - target: {fileID: 7053805798636586339, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8628815836370700996, guid: 05d9d871bc9fe7840bf59a1076924a97, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode

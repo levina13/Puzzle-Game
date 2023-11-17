@@ -5,6 +5,7 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -115,6 +116,7 @@ Domain Reload Profiling: 11812ms
 			ProcessInitializeOnLoadMethodAttributes (709ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -172,6 +174,7 @@ Unloading 62 unused Assets / (33.2 KB). Loaded Objects now: 4498.
 Memory consumption went from 145.5 MB to 145.5 MB.
 Total: 11.788100 ms (FindLiveObjects: 1.751900 ms CreateObjectMapping: 2.478200 ms MarkObjects: 7.329900 ms  DeleteObjects: 0.224500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
