@@ -4,10 +4,14 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class DragAndDrop : MonoBehaviour
 {
     public GameObject SelectedPiece;
+    public GameObject PauseMenu;
+    public Button PauseResumeButton;
     public ManageScene manageScene;
     int OIL = 1;
     public int TotalPiece;
@@ -33,6 +37,9 @@ public class DragAndDrop : MonoBehaviour
             TotalPiece = 80;
             batasWaktu = (StaticVar.level > 25) ? 300f : 240f;
         }
+        PauseMenu.SetActive(false);
+        StaticVar.PauseResumeButtonText = PauseResumeButton.GetComponentInChildren<TextMeshProUGUI>();
+        StaticVar.PauseResumeButtonText.text = "Pause";
     }
 
     // Update is called once per frame
@@ -58,6 +65,33 @@ public class DragAndDrop : MonoBehaviour
     public void Lose()
     {
         manageScene.Lose();
+    }
+    public void PauseOrResume()
+    {
+        if (StaticVar.IsPaused)
+        {
+            ResumeGame();
+        }
+        else
+        {
+            // DragAndDrop.PauseGame();
+            PauseGame();
+        }
+    }
+
+    public void PauseGame()
+    {
+        StaticVar.PauseResumeButtonText.text = "Resume";
+        PauseMenu.SetActive(true);
+        Time.timeScale = 0;
+        StaticVar.IsPaused = true;
+    }
+    public void ResumeGame()
+    {
+        StaticVar.PauseResumeButtonText.text = "Resume";
+        PauseMenu.SetActive(false);
+        Time.timeScale = 0;
+        StaticVar.IsPaused = false;
     }
 
     public void DisplayTime(float timeToDisplay)
@@ -106,4 +140,5 @@ public class DragAndDrop : MonoBehaviour
         }
 
     }
+
 }
