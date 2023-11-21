@@ -51,7 +51,10 @@ public class DragAndDrop : MonoBehaviour
         if (batasWaktu > 0)
         {
             DisplayTime(batasWaktu);
-            PuzzleMove();
+            if (!StaticVar.IsPaused)
+            {
+                PuzzleMove();
+            }
             batasWaktu -= Time.deltaTime;
         }
         else
@@ -93,7 +96,7 @@ public class DragAndDrop : MonoBehaviour
     {
         StaticVar.PauseResumeButtonText.text = "Resume";
         PauseMenu.SetActive(false);
-        Time.timeScale = 0;
+        Time.timeScale = 1;
         StaticVar.IsPaused = false;
     }
 

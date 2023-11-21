@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class ManageScene : MonoBehaviour
 {
     // Start is called before the first frame update
-
+    public LifeManager lifeManager;
     public void ChangeScene(int index)
     {
         SceneManager.LoadScene(index);
@@ -20,6 +20,7 @@ public class ManageScene : MonoBehaviour
     {
         StaticVar.level = level;
         SceneManager.LoadScene(level + 3);
+        lifeManager.UseLife();
     }
     public void NextLevel()
     {
