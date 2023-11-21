@@ -12,7 +12,6 @@ public class LifeManager : MonoBehaviour
 
     [SerializeField]
     private int maxLife;
-    private int totalLife = 0;
     public DateTime nextLifeTime;
     public DateTime lastAddedTime;
     private int restoreDuration = 100;
@@ -28,13 +27,13 @@ public class LifeManager : MonoBehaviour
 
     public void UseLife()
     {
-        if (totalLife == 0) return;
-        totalLife--;
+        if (StaticVar.totalLife == 0) return;
+        StaticVar.totalLife--;
         UpdateLife();
 
         if (!restoring)
         {
-            if (totalLife + 1 == maxLife)
+            if (StaticVar.totalLife + 1 == maxLife)
             {
                 nextLifeTime = AddDuration(DateTime.Now, restoreDuration);
             }
@@ -47,17 +46,17 @@ public class LifeManager : MonoBehaviour
         UpdateTimer();
         UpdateLife();
         restoring = true;
-        while (totalLife < maxLife)
+        while (StaticVar.totalLife < maxLife)
         {
             DateTime currentTime = DateTime.Now;
             DateTime counter = nextLifeTime;
             bool isAdding = false;
             while (currentTime > counter)
             {
-                if (totalLife < maxLife)
+                if (StaticVar.totalLife < maxLife)
                 {
                     isAdding = true;
-                    totalLife++;
+                    StaticVar.totalLife++;
                     DateTime timeToAdd = lastAddedTime > counter ? lastAddedTime : counter;
                     counter = AddDuration(timeToAdd, restoreDuration);
                 }
@@ -78,7 +77,7 @@ public class LifeManager : MonoBehaviour
     }
     private void UpdateTimer()
     {
-        if (totalLife >= maxLife)
+        if (StaticVar.totalLife >= maxLife)
         {
             textTimer.text = "full";
             return;
@@ -94,7 +93,7 @@ public class LifeManager : MonoBehaviour
     }
     private void UpdateLife()
     {
-        textLife.text = totalLife.ToString();
+        textLife.text = StaticVar.totalLife.ToString();
     }
 
     private DateTime AddDuration(DateTime time, int duration)
@@ -107,14 +106,14 @@ public class LifeManager : MonoBehaviour
 
     private void Load()
     {
-        totalLife = PlayerPrefs.GetInt("totalLife");
+        StaticVar.totalLife = PlayerPrefs.GetInt("totalLife");
         nextLifeTime = StringToDate(PlayerPrefs.GetString("nextLifeTime"));
         lastAddedTime = StringToDate(PlayerPrefs.GetString("lastAddedTime"));
     }
 
     private void Save()
     {
-        PlayerPrefs.SetInt("totalLife", totalLife);
+        PlayerPrefs.SetInt("totalLife", StaticVar.totalLife);
         PlayerPrefs.SetString("nextLifeTime", nextLifeTime.ToString());
         PlayerPrefs.SetString("lastAddedTime", lastAddedTime.ToString());
     }
