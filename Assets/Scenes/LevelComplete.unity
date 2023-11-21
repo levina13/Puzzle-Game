@@ -506,6 +506,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2032801979}
     m_Modifications:
+    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016110282151010910, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016110282151010910, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1845063155, guid: b55350894d928e641aff12f2256bddeb, type: 3}
     - target: {fileID: 6450797983401728180, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Name
       value: MenuButton
@@ -536,11 +556,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 277.224
+      value: 147
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 82.254
+      value: 149
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -588,6 +608,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8854384037809531311, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

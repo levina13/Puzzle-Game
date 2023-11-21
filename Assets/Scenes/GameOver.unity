@@ -132,14 +132,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 2032801979}
     m_Modifications:
     - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Menu
-      objectReference: {fileID: 0}
-    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Colors.m_NormalColor.b
       value: 0.9570666
       objectReference: {fileID: 0}
@@ -151,6 +143,14 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 0.9811321
       objectReference: {fileID: 0}
+    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600669694778277734, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Menu
+      objectReference: {fileID: 0}
     - target: {fileID: 6016110282151010910, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Type
       value: 0
@@ -158,7 +158,7 @@ PrefabInstance:
     - target: {fileID: 6016110282151010910, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1040436150, guid: 0671fdd975f6d1f419c7f251ccc41fc5, type: 3}
+      objectReference: {fileID: 1845063155, guid: b55350894d928e641aff12f2256bddeb, type: 3}
     - target: {fileID: 6450797983401728180, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Name
       value: MenuButton
