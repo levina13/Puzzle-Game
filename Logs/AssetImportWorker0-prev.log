@@ -1,10 +1,9 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 6081 MB
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7863 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
 C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
@@ -12,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/SEMESTER 5/Game Programming/TUBES-Game
+D:/KULIAh/SEMESTER 5/GAME PROGRAMMING/TUBES-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50665
-Successfully changed project path to: D:/SEMESTER 5/Game Programming/TUBES-Game
-D:/SEMESTER 5/Game Programming/TUBES-Game
+57153
+Successfully changed project path to: D:/KULIAh/SEMESTER 5/GAME PROGRAMMING/TUBES-Game
+D:/KULIAh/SEMESTER 5/GAME PROGRAMMING/TUBES-Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -50,131 +49,122 @@ D:/SEMESTER 5/Game Programming/TUBES-Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5788] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 657188445 [EditorId] 657188445 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3M6GNOF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25356] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 244059968 [EditorId] 244059968 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QVM676SB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5788] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 657188445 [EditorId] 657188445 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3M6GNOF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25356] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 244059968 [EditorId] 244059968 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-QVM676SB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 1 workers.
-Refreshing native plugins compatible for Editor in 16.19 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 39.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/SEMESTER 5/Game Programming/TUBES-Game/Assets
+[Subsystems] Discovering subsystems at path D:/KULIAh/SEMESTER 5/GAME PROGRAMMING/TUBES-Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x15d8)
-    Vendor:   ATI
-    VRAM:     3040 MB
-    Driver:   27.20.11030.11001
+    Renderer: Intel(R) UHD Graphics (ID=0x46b3)
+    Vendor:   Intel
+    VRAM:     3931 MB
+    Driver:   31.0.101.4032
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.197271 seconds.
-- Loaded All Assemblies, in  2.669 seconds
+Registered in 0.009180 seconds.
+- Loaded All Assemblies, in  0.756 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 5769 ms
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  9.134 seconds
-Domain Reload Profiling: 11812ms
-	BeginReloadAssembly (754ms)
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling: 1234ms
+	BeginReloadAssembly (308ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (226ms)
-	RebuildNativeTypeToScriptingClass (68ms)
-	initialDomainReloadingComplete (454ms)
-	LoadAllAssembliesAndSetupDomain (1162ms)
-		LoadAssemblies (708ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (305ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1155ms)
-			TypeCache.Refresh (1152ms)
-				TypeCache.ScanAssembly (1081ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (256ms)
+				TypeCache.ScanAssembly (227ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (9149ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (480ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (8479ms)
+		SetupLoadedEditorAssemblies (357ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6662ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (1035ms)
-			ProcessInitializeOnLoadMethodAttributes (709ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  7.183 seconds
-Refreshing native plugins compatible for Editor in 11.66 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.340 seconds
+Refreshing native plugins compatible for Editor in 12.57 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.186 seconds
-Domain Reload Profiling: 9346ms
-	BeginReloadAssembly (1004ms)
+- Finished resetting the current domain, in  1.318 seconds
+Domain Reload Profiling: 2658ms
+	BeginReloadAssembly (275ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (145ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (364ms)
-	LoadAllAssembliesAndSetupDomain (5618ms)
-		LoadAssemblies (4679ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (925ms)
+		LoadAssemblies (724ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1580ms)
-			TypeCache.Refresh (1509ms)
-				TypeCache.ScanAssembly (1307ms)
-			ScanForSourceGeneratedMonoScriptInfo (51ms)
+		AnalyzeDomain (376ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (271ms)
+			ScanForSourceGeneratedMonoScriptInfo (56ms)
 			ResolveRequiredComponents (17ms)
-	FinalizeReload (2188ms)
+	FinalizeReload (1319ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1537ms)
+		SetupLoadedEditorAssemblies (763ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (61ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (244ms)
-			ProcessInitializeOnLoadAttributes (1068ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (52ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (540ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 8.70 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 6.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4029 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (33.2 KB). Loaded Objects now: 4498.
-Memory consumption went from 145.5 MB to 145.5 MB.
-Total: 11.788100 ms (FindLiveObjects: 1.751900 ms CreateObjectMapping: 2.478200 ms MarkObjects: 7.329900 ms  DeleteObjects: 0.224500 ms)
+Unloading 62 unused Assets / (33.2 KB). Loaded Objects now: 4495.
+Memory consumption went from 140.5 MB to 140.5 MB.
+Total: 5.921100 ms (FindLiveObjects: 0.513800 ms CreateObjectMapping: 0.358700 ms MarkObjects: 4.900300 ms  DeleteObjects: 0.146200 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -188,3 +178,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 663572.839201 seconds.
+  path: Assets/Sprites/star.png
+  artifactKey: Guid(7b699c80b89fc9649bfeae74c579b72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/star.png using Guid(7b699c80b89fc9649bfeae74c579b72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0005b743a57e9654a25b75757522ea') in 0.181283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scenes/puzzle.unity
+  artifactKey: Guid(f358194481ba9eb4dacc83bff4362fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/puzzle.unity using Guid(f358194481ba9eb4dacc83bff4362fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcac7e507a850ccd77c6758f2c707db8') in 0.000924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 700.375173 seconds.
+  path: Assets/Sprites/Blue Animated Pixel Computer Retro Sale Night Instagram Post.png
+  artifactKey: Guid(5371f394376ffbe4a8223bddf8b39f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Blue Animated Pixel Computer Retro Sale Night Instagram Post.png using Guid(5371f394376ffbe4a8223bddf8b39f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbc7e48e9cc3ca803488838fbe15b22') in 0.376537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 58.193014 seconds.
+  path: Assets/Sprites/Blue Animated Pixel Computer Retro Sale Night Instagram Post.png
+  artifactKey: Guid(5371f394376ffbe4a8223bddf8b39f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Blue Animated Pixel Computer Retro Sale Night Instagram Post.png using Guid(5371f394376ffbe4a8223bddf8b39f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da294ce6cf5ccbba349e696ab91202e7') in 0.042463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
