@@ -25,6 +25,10 @@ public class ManageScene : MonoBehaviour
         {
             StaticVar.level = level;
             SceneManager.LoadScene(level + 3);
+            if (level > PlayerPrefs.GetInt("levelAt"))
+            {
+                PlayerPrefs.SetInt("levelAt", level);
+            }
         }
     }
     public void NextLevel()
