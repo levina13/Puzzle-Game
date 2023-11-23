@@ -14,11 +14,13 @@ public class DragAndDrop : MonoBehaviour
     public Button PauseResumeButton;
     public ManageScene manageScene;
     public ProgressBar progressBar;
+    public GameObject effectSound;
     int OIL = 1;
     public int TotalPiece;
     public int CountRightPiece;
     public TMP_Text WaktuSisa;
     public static float batasWaktu = 60f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,10 +53,10 @@ public class DragAndDrop : MonoBehaviour
         if (batasWaktu > 0)
         {
             DisplayTime(batasWaktu);
-            if (!StaticVar.IsPaused)
-            {
-                PuzzleMove();
-            }
+            // if (!StaticVar.IsPaused)
+            // {
+            PuzzleMove();
+            // }
             batasWaktu -= Time.deltaTime;
         }
         else
@@ -119,8 +121,10 @@ public class DragAndDrop : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
             if (hit.transform.CompareTag("puzzle"))
             {
+                effectSound.GetComponent<EffectSound>().Click();
                 if (!hit.transform.GetComponent<PiecesScript>().InRightPosition)
                 {
+                    Debug.Log("not right");
                     SelectedPiece = hit.transform.gameObject;
                     SelectedPiece.GetComponent<PiecesScript>().BeforePosition = SelectedPiece.transform.position;
                     SelectedPiece.GetComponent<PiecesScript>().Selected = true;

@@ -7,12 +7,15 @@ using UnityEngine.Rendering;
 public class PiecesScript : MonoBehaviour
 {
     public DragAndDrop dragAndDrop;
+    public GameObject effectSound;
+
     public Vector3 RightPosition;
     public Vector3 BeforePosition;
     public bool InRightPosition;
     public bool Selected;
     public bool Inside;
     public float distance;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +34,7 @@ public class PiecesScript : MonoBehaviour
             {
                 if (InRightPosition == false)
                 {
+                    effectSound.GetComponent<EffectSound>().Right();
                     transform.position = RightPosition;
                     InRightPosition = true;
                     GetComponent<SortingGroup>().sortingOrder = 0;

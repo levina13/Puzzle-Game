@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class ManageScene : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject effectSound;
 
     public void ChangeScene(int index)
     {
@@ -41,9 +42,11 @@ public class ManageScene : MonoBehaviour
     public void Success()
     {
         SceneManager.LoadScene(3);
+        effectSound.GetComponent<EffectSound>().Win();
     }
     public void Lose()
     {
         SceneManager.LoadScene(1);
+        effectSound.GetComponent<EffectSound>().Lose();
     }
 }
