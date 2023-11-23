@@ -293,7 +293,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171757362}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 60c33d645a123ed4781f504befc385b5, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 33a6f140c673b7d4c9ced26068a24725, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -525,7 +525,7 @@ PrefabInstance:
     - target: {fileID: 6016110282151010910, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1845063155, guid: b55350894d928e641aff12f2256bddeb, type: 3}
+      objectReference: {fileID: -348364240, guid: daf9c6c32a70c1747b81b3418bcf9103, type: 3}
     - target: {fileID: 6450797983401728180, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Name
       value: MenuButton
@@ -556,11 +556,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 147
+      value: 252.542
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 149
+      value: 78.749
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -592,11 +592,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000015259
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -195
+      value: -116
       objectReference: {fileID: 0}
     - target: {fileID: 8801074389558604968, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
