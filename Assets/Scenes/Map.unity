@@ -3961,7 +3961,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 127783716}
   m_HandleRect: {fileID: 127783715}
   m_Direction: 2
-  m_Value: 0.000000045725656
+  m_Value: 0
   m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4325,6 +4325,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8860382039586779296, guid: a745317e1bd35d049b36243bd0027938, type: 3}
+      propertyPath: effectSound
+      value: 
+      objectReference: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
+    - target: {fileID: 8860382039586779296, guid: a745317e1bd35d049b36243bd0027938, type: 3}
+      propertyPath: lifeManager
+      value: 
+      objectReference: {fileID: 1147411699}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4927,7 +4935,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 312081507}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.9999999
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

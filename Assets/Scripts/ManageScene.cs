@@ -8,6 +8,7 @@ public class ManageScene : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject effectSound;
+    public GameObject lifeManager;
 
     public void ChangeScene(int index)
     {
@@ -19,13 +20,17 @@ public class ManageScene : MonoBehaviour
     }
     public void Play(int level)
     {
-        StaticVar.level = level;
-        SceneManager.LoadScene(level + 3);
+        bool empty = lifeManager.GetComponent<LifeManager>().UseLife();
+        if (!empty)
+        {
+            StaticVar.level = level;
+            SceneManager.LoadScene(level + 3);
+        }
     }
     public void NextLevel()
     {
         int level = StaticVar.level;
-        SceneManager.LoadScene(level + 4);
+        Play(level + 4);
     }
     public void Restart()
     {

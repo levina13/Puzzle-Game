@@ -7,28 +7,37 @@ using TMPro;
 
 public class LifeManager : MonoBehaviour
 {
+    public static LifeManager Instance;
     public TMP_Text textLife;
     public TMP_Text textTimer;
 
     [SerializeField]
     private int maxLife;
-    private int totalLife = 0;
+    public static int totalLife = 0;
     public DateTime nextLifeTime;
     public DateTime lastAddedTime;
     private int restoreDuration = 100;
     private bool restoring = false;
-
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.DeleteAll();
+        // DontDestroyOnLoad(gameObject);
+        // PlayerPrefs.DeleteAll();
         Load();
         StartCoroutine(RestoreRoutine());
     }
 
-    public void UseLife()
+    public bool UseLife()
     {
-        if (totalLife == 0) return;
+        if (totalLife == 0) return true;
         totalLife--;
         UpdateLife();
 
@@ -40,6 +49,7 @@ public class LifeManager : MonoBehaviour
             }
             StartCoroutine(RestoreRoutine());
         }
+        return false;
     }
 
     private IEnumerator RestoreRoutine()
