@@ -542,7 +542,7 @@ PrefabInstance:
     - target: {fileID: 6016110282151010910, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2095738137, guid: daf9c6c32a70c1747b81b3418bcf9103, type: 3}
+      objectReference: {fileID: 943913991, guid: daf9c6c32a70c1747b81b3418bcf9103, type: 3}
     - target: {fileID: 6450797983401728180, guid: a8fbb8d959dbb7d42bbc5e028317e8c9, type: 3}
       propertyPath: m_Name
       value: MenuButton
