@@ -34,10 +34,23 @@ public class SoundManager : MonoBehaviour
     public void ToggleEffects()
     {
         _effectsSource.mute = !_effectsSource.mute;
+        if (_effectsSource.mute)
+        {
+            StaticVar.EffectPaused = true;
+            return;
+        }
+        StaticVar.EffectPaused = false;
+
     }
     public void ToggleMusic()
     {
         _musicSource.mute = !_musicSource.mute;
+        if (_musicSource.mute)
+        {
+            StaticVar.MusicPaused = true;
+            return;
+        }
+        StaticVar.MusicPaused = false;
     }
 
 }

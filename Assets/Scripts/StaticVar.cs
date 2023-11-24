@@ -9,5 +9,7 @@ public class StaticVar : MonoBehaviour
     public static bool IsPaused = false;
     // Update is called once per frame
     public static TextMeshProUGUI PauseResumeButtonText;
+    public static bool MusicPaused = false;
+    public static bool EffectPaused = false;
 
 }

@@ -16,4 +16,8 @@ public class PopupScript : MonoBehaviour
     {
         Panel.SetActive(true);
     }
+    public void ClosePanel()
+    {
+        Panel.SetActive(false);
+    }
 }

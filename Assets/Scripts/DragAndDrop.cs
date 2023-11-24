@@ -42,9 +42,7 @@ public class DragAndDrop : MonoBehaviour
         }
         progressBar.SetMaxProgress(TotalPiece);
 
-        PauseMenu.SetActive(false);
-        StaticVar.PauseResumeButtonText = PauseResumeButton.GetComponentInChildren<TextMeshProUGUI>();
-        StaticVar.PauseResumeButtonText.text = "Pause";
+        ResumeGame();
     }
 
     // Update is called once per frame
@@ -89,14 +87,12 @@ public class DragAndDrop : MonoBehaviour
 
     public void PauseGame()
     {
-        StaticVar.PauseResumeButtonText.text = "Resume";
         PauseMenu.SetActive(true);
         Time.timeScale = 0;
         StaticVar.IsPaused = true;
     }
     public void ResumeGame()
     {
-        StaticVar.PauseResumeButtonText.text = "Resume";
         PauseMenu.SetActive(false);
         Time.timeScale = 1;
         StaticVar.IsPaused = false;
