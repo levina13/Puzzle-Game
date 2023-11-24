@@ -481,6 +481,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367662640}
   m_CullTransparentMesh: 1
+--- !u!114 &376219372 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2041495538332809520, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
+  m_PrefabInstance: {fileID: 7737454296552153238}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb0a9864ae593914a8593d8ead801448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,15 +584,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &588349311 stripped
+--- !u!114 &642314935 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4348454275162067272, guid: e84b26887a416db49b3e1828e5102cbe, type: 3}
-  m_PrefabInstance: {fileID: 2893132974604126862}
+  m_CorrespondingSourceObject: {fileID: 4513349671428212897, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
+  m_PrefabInstance: {fileID: 7737454296552153238}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43a4a14165128d448b6ae21337929091, type: 3}
+  m_Script: {fileID: 11500000, guid: fb0a9864ae593914a8593d8ead801448, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1171757362
@@ -1376,7 +1387,15 @@ PrefabInstance:
     - target: {fileID: 3405423982011138366, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 588349311}
+      objectReference: {fileID: 376219372}
+    - target: {fileID: 3405423982011138366, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Toggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405423982011138366, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ToggleAudio, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3703531807703435794, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1388,7 +1407,15 @@ PrefabInstance:
     - target: {fileID: 5633030044612153063, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 588349311}
+      objectReference: {fileID: 642314935}
+    - target: {fileID: 5633030044612153063, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Toggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633030044612153063, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ToggleAudio, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5839712605770631250, guid: 13f548fa7efb3864fa0acb09c8a204bc, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
