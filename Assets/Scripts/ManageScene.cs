@@ -14,6 +14,14 @@ public class ManageScene : MonoBehaviour
     {
         SceneManager.LoadScene(index);
     }
+    public void Menu()
+    {
+        ChangeScene(0);
+    }
+    public void Map()
+    {
+        ChangeScene(1);
+    }
     public void Exit()
     {
         Application.Quit();
@@ -24,7 +32,7 @@ public class ManageScene : MonoBehaviour
         if (!empty)
         {
             StaticVar.level = level;
-            SceneManager.LoadScene(level + 3);
+            SceneManager.LoadScene(level + 2);
             if (level > PlayerPrefs.GetInt("levelAt"))
             {
                 PlayerPrefs.SetInt("levelAt", level);
@@ -34,28 +42,21 @@ public class ManageScene : MonoBehaviour
     public void NextLevel()
     {
         int level = StaticVar.level;
-        Play(level + 4);
+        Play(level + 1);
     }
     public void Restart()
     {
         Play(StaticVar.level);
     }
-    public void Menu()
-    {
-        SceneManager.LoadScene(0);
-    }
-    public void Map()
-    {
-        SceneManager.LoadScene(2);
-    }
+
     public void Success()
     {
-        SceneManager.LoadScene(3);
+        ChangeScene(StaticVar.level + 17);
         effectSound.GetComponent<EffectSound>().Win();
     }
     public void Lose()
     {
-        SceneManager.LoadScene(1);
+        ChangeScene(2);
         effectSound.GetComponent<EffectSound>().Lose();
     }
 }

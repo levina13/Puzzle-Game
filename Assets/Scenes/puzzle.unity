@@ -418,7 +418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -663,7 +663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -1237,7 +1237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -1818,7 +1818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -2063,7 +2063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -2453,7 +2453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -2881,7 +2881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -3126,7 +3126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -3371,7 +3371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -3785,7 +3785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -4114,7 +4114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -4359,7 +4359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -5114,7 +5114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -5527,7 +5527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -5772,7 +5772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -6017,7 +6017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -6262,7 +6262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -6759,7 +6759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -7004,7 +7004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -7249,7 +7249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -7525,7 +7525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -8817,7 +8817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -9146,7 +9146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 1655930680}
-  effectSound: {fileID: 0}
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
   RightPosition: {x: 0, y: 0, z: 0}
   BeforePosition: {x: 0, y: 0, z: 0}
   InRightPosition: 0
@@ -9442,7 +9442,7 @@ PrefabInstance:
     - target: {fileID: 1453104846304421852, guid: e180138503120f94b955507f0d6952bd, type: 3}
       propertyPath: effectSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
     - target: {fileID: 1453104846304421852, guid: e180138503120f94b955507f0d6952bd, type: 3}
       propertyPath: manageScene
       value: 
