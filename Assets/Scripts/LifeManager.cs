@@ -25,6 +25,10 @@ public class LifeManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
     // Start is called before the first frame update
     void Start()
@@ -40,7 +44,7 @@ public class LifeManager : MonoBehaviour
         if (totalLife == 0) return true;
         totalLife--;
         UpdateLife();
-
+        Save();
         if (!restoring)
         {
             if (totalLife + 1 == maxLife)

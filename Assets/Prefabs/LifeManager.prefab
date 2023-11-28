@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3102282787363919811
+--- !u!1 &3926581286914784155
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1926130293662879189}
-  - component: {fileID: 5729065390750048290}
+  - component: {fileID: 2119771179334725411}
+  - component: {fileID: 6036002644021941548}
   m_Layer: 0
-  m_Name: ManageScene
+  m_Name: LifeManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1926130293662879189
+--- !u!4 &2119771179334725411
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3102282787363919811}
+  m_GameObject: {fileID: 3926581286914784155}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 286.9237, y: 85.88613, z: -1.7743869}
+  m_LocalPosition: {x: -0.7318897, y: -0.6026331, z: 1.8109887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5729065390750048290
+--- !u!114 &6036002644021941548
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3102282787363919811}
+  m_GameObject: {fileID: 3926581286914784155}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 063d0182d1ae50342a2095ab6296657f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a7b0e89c3a65344392ea44d2d0938a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
-  lifeManager: {fileID: 3926581286914784155, guid: c3873aa53b0aa394d944c37940541342, type: 3}
-  energyEmpty: {fileID: 6020214128622367353, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+  textLife: {fileID: 0}
+  textTimer: {fileID: 0}
+  maxLife: 5

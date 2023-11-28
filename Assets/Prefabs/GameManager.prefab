@@ -57,3 +57,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063d0182d1ae50342a2095ab6296657f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effectSound: {fileID: 0}
+  lifeManager: {fileID: 0}
+  energyEmpty: {fileID: 0}

@@ -28,18 +28,20 @@ public class DragAndDrop : MonoBehaviour
         if (StaticVar.level >= 1 && StaticVar.level <= 10)
         {
             TotalPiece = 24;
-            batasWaktu = (StaticVar.level > 5) ? 150f : 120f;
+            // batasWaktu = (StaticVar.level > 5) ? 150f : 120f;
         }
         else if (StaticVar.level >= 11 && StaticVar.level <= 20)
         {
             TotalPiece = 48;
-            batasWaktu = (StaticVar.level > 15) ? 210f : 180f;
+            // batasWaktu = (StaticVar.level > 15) ? 210f : 180f;
         }
         else
         {
             TotalPiece = 80;
-            batasWaktu = (StaticVar.level > 25) ? 300f : 240f;
+            // batasWaktu = (StaticVar.level > 25) ? 300f : 240f;
         }
+        batasWaktu = 600f;
+
         progressBar.SetMaxProgress(TotalPiece);
 
         ResumeGame();
