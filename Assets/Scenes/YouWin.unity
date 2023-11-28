@@ -966,7 +966,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1593819535}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5729065390750048290, guid: ef5fbff2e066f3646a94b57165cc93f1, type: 3}
+        m_TargetAssemblyTypeName: ManageScene, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 4806366395631017234, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
+        m_TargetAssemblyTypeName: EffectSound, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1593819535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1159,6 +1183,18 @@ MonoBehaviour:
       - m_Target: {fileID: 8860382039586779296, guid: a745317e1bd35d049b36243bd0027938, type: 3}
         m_TargetAssemblyTypeName: ManageScene, Assembly-CSharp
         m_MethodName: NextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 4806366395631017234, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
+        m_TargetAssemblyTypeName: EffectSound, Assembly-CSharp
+        m_MethodName: Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
