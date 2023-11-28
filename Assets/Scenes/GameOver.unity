@@ -405,9 +405,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5341411776911260987, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -579866500, guid: 53d7a0e3bc871f942a4d2eb5c6a2b64a, type: 3}
     - target: {fileID: 6020214128622367353, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
       propertyPath: m_Name
       value: Energy Empty Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299832764634947412, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 172
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299832764634947412, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299832764634947412, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299832764634947412, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 48
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
