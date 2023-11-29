@@ -71,7 +71,7 @@ public class LifeManager : MonoBehaviour
                 if (totalLife < maxLife)
                 {
                     isAdding = true;
-                    totalLife++;
+                    AddLife();
                     DateTime timeToAdd = lastAddedTime > counter ? lastAddedTime : counter;
                     counter = AddDuration(timeToAdd, restoreDuration);
                 }
@@ -89,6 +89,13 @@ public class LifeManager : MonoBehaviour
             yield return null;
         }
         restoring = false;
+    }
+    public void AddLife()
+    {
+        if (totalLife<maxLife) totalLife++;
+        UpdateTimer();
+        UpdateLife();
+        Save();
     }
     private void UpdateTimer()
     {

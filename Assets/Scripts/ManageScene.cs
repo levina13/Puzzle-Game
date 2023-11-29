@@ -33,10 +33,7 @@ public class ManageScene : MonoBehaviour
         {
             StaticVar.level = level;
             SceneManager.LoadScene(level + 2);
-            if (level > PlayerPrefs.GetInt("levelAt"))
-            {
-                PlayerPrefs.SetInt("levelAt", level);
-            }
+
             return;
         }
         energyEmpty.SetActive(true);
@@ -60,8 +57,12 @@ public class ManageScene : MonoBehaviour
 
     public void Success()
     {
-        PlayerPrefs.SetInt("levelAt", PlayerPrefs.GetInt("levelAt") + 1);
-        // ChangeScene(4);
+        int nextLevel = StaticVar.level+1;
+        if (nextLevel > PlayerPrefs.GetInt("levelAt"))
+        {
+            PlayerPrefs.SetInt("levelAt", nextLevel);
+        }
+        LifeManager.Instance.AddLife();
         ChangeScene(StaticVar.level + 17);
         effectSound.GetComponent<EffectSound>().Win();
     }

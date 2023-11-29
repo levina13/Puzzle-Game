@@ -40,7 +40,7 @@ public class DragAndDrop : MonoBehaviour
             TotalPiece = 24;
             batasWaktu = 300f;
         }
-        batasWaktu = 5f;
+        // batasWaktu = 5f;
 
         progressBar.SetMaxProgress(TotalPiece);
 
