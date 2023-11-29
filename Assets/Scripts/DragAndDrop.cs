@@ -53,10 +53,10 @@ public class DragAndDrop : MonoBehaviour
         if (batasWaktu > 0)
         {
             DisplayTime(batasWaktu);
-            // if (!StaticVar.IsPaused)
-            // {
-            PuzzleMove();
-            // }
+            if (!StaticVar.IsPaused)
+            {
+                PuzzleMove();
+            }
             batasWaktu -= Time.deltaTime;
         }
         else
