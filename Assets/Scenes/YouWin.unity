@@ -394,6 +394,10 @@ PrefabInstance:
       value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 9085797105945063053, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+      propertyPath: m_text
+      value: "Your Energy is empty, \nwait a moment!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085797105945063053, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
       propertyPath: m_fontSize
       value: 20.7
       objectReference: {fileID: 0}
@@ -406,8 +410,20 @@ PrefabInstance:
       value: -137.05829
       objectReference: {fileID: 0}
     - target: {fileID: 9085797105945063053, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 15a720564dd824c40b68f822884c9ad4, type: 2}
+    - target: {fileID: 9085797105945063053, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
       propertyPath: m_fontSizeBase
       value: 20.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085797105945063053, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6487201789313096748, guid: 15a720564dd824c40b68f822884c9ad4, type: 2}
+    - target: {fileID: 9085797105945063053, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
