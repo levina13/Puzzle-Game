@@ -378,6 +378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pieces_3
       objectReference: {fileID: 0}
+    - target: {fileID: 6028421179749289393, guid: fbe345144f925e045a18f06d58a0983f, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 6956855760171870700, guid: fbe345144f925e045a18f06d58a0983f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.17436843
@@ -828,6 +832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pieces_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3776430868300294451, guid: a1d26844e5a7356469370fd133b69669, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1575661604481478168, guid: a1d26844e5a7356469370fd133b69669, type: 3}
@@ -1302,6 +1310,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2974925844272519366, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 8986859612494370813, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1371,6 +1383,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 2974925844272519366, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6058394573271447464, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
@@ -1565,6 +1581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pieces_3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6028421179749289393, guid: fbe345144f925e045a18f06d58a0983f, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 6956855760171870700, guid: fbe345144f925e045a18f06d58a0983f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1318492
@@ -1725,8 +1745,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2023057230}
   - {fileID: 1536183858}
+  - {fileID: 2023057230}
   - {fileID: 483756457}
   m_Father: {fileID: 1662415393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2090,6 +2110,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 2974925844272519366, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6058394573271447464, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
@@ -2164,6 +2188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pieces_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3776430868300294451, guid: a1d26844e5a7356469370fd133b69669, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1575661604481478168, guid: a1d26844e5a7356469370fd133b69669, type: 3}
@@ -2186,6 +2214,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4947652659314147071, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 7879349152188255289, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.13726254
@@ -2723,6 +2755,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4947652659314147071, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 7879349152188255289, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.13049263
@@ -3114,6 +3150,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 2974925844272519366, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6058394573271447464, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
@@ -3440,6 +3480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pieces_1
       objectReference: {fileID: 0}
+    - target: {fileID: 3776430868300294451, guid: a1d26844e5a7356469370fd133b69669, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1575661604481478168, guid: a1d26844e5a7356469370fd133b69669, type: 3}
@@ -4256,6 +4300,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4947652659314147071, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 7879349152188255289, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.17436843

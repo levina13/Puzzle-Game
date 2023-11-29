@@ -594,6 +594,10 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3776430868300294451, guid: a1d26844e5a7356469370fd133b69669, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 7482943870717353844, guid: a1d26844e5a7356469370fd133b69669, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.107114725
@@ -736,6 +740,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 2974925844272519366, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 8986859612494370813, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1418,6 +1426,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d37d194c5ab9fd24fbd95a045171d55b, type: 3}
+    - target: {fileID: 3776430868300294451, guid: a1d26844e5a7356469370fd133b69669, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 7482943870717353844, guid: a1d26844e5a7356469370fd133b69669, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.109129414
@@ -1546,8 +1558,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2023057230}
   - {fileID: 1536183858}
+  - {fileID: 2023057230}
   - {fileID: 483756457}
   m_Father: {fileID: 1662415393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1911,6 +1923,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2974925844272519366, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 8986859612494370813, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2089,6 +2105,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 2974925844272519366, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 8986859612494370813, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2616,6 +2636,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.834
       objectReference: {fileID: 0}
+    - target: {fileID: 4947652659314147071, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 5576134907203155822, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3198,6 +3222,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.927
       objectReference: {fileID: 0}
+    - target: {fileID: 4947652659314147071, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 5576134907203155822, guid: d22d89e31c35ca74b975c79df77d270e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3968,6 +3996,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 2974925844272519366, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
+      propertyPath: dragAndDrop
+      value: 
+      objectReference: {fileID: 1655930680}
     - target: {fileID: 8986859612494370813, guid: f86147493c9f7e34f9ae2c42f1992b80, type: 3}
       propertyPath: m_Sprite
       value: 
