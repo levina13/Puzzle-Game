@@ -25,6 +25,10 @@ public class LifeManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
     // Start is called before the first frame update
     void Start()
@@ -40,7 +44,7 @@ public class LifeManager : MonoBehaviour
         if (totalLife == 0) return true;
         totalLife--;
         UpdateLife();
-
+        Save();
         if (!restoring)
         {
             if (totalLife + 1 == maxLife)
@@ -67,7 +71,7 @@ public class LifeManager : MonoBehaviour
                 if (totalLife < maxLife)
                 {
                     isAdding = true;
-                    totalLife++;
+                    AddLife();
                     DateTime timeToAdd = lastAddedTime > counter ? lastAddedTime : counter;
                     counter = AddDuration(timeToAdd, restoreDuration);
                 }
@@ -85,6 +89,13 @@ public class LifeManager : MonoBehaviour
             yield return null;
         }
         restoring = false;
+    }
+    public void AddLife()
+    {
+        if (totalLife<maxLife) totalLife++;
+        UpdateTimer();
+        UpdateLife();
+        Save();
     }
     private void UpdateTimer()
     {

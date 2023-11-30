@@ -44,3 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063d0182d1ae50342a2095ab6296657f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effectSound: {fileID: 523153662764753184, guid: 14733b3876d4d9247ba2e7c4a25d675a, type: 3}
+  lifeManager: {fileID: 3926581286914784155, guid: c3873aa53b0aa394d944c37940541342, type: 3}
+  energyEmpty: {fileID: 6020214128622367353, guid: 2bc102db21e65f742a59465e87cfc732, type: 3}

@@ -25,21 +25,23 @@ public class DragAndDrop : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
-        if (StaticVar.level >= 1 && StaticVar.level <= 10)
+        if (StaticVar.level >= 1 && StaticVar.level <= 5)
         {
-            TotalPiece = 24;
-            batasWaktu = (StaticVar.level > 5) ? 150f : 120f;
+            TotalPiece = 8;
+            batasWaktu = 60f;
         }
-        else if (StaticVar.level >= 11 && StaticVar.level <= 20)
+        else if (StaticVar.level >= 6 && StaticVar.level <= 10)
         {
-            TotalPiece = 48;
-            batasWaktu = (StaticVar.level > 15) ? 210f : 180f;
+            TotalPiece = 12;
+            batasWaktu = 180f;
         }
         else
         {
-            TotalPiece = 80;
-            batasWaktu = (StaticVar.level > 25) ? 300f : 240f;
+            TotalPiece = 24;
+            batasWaktu = 300f;
         }
+        // batasWaktu = 5f;
+
         progressBar.SetMaxProgress(TotalPiece);
 
         ResumeGame();
@@ -51,10 +53,10 @@ public class DragAndDrop : MonoBehaviour
         if (batasWaktu > 0)
         {
             DisplayTime(batasWaktu);
-            // if (!StaticVar.IsPaused)
-            // {
-            PuzzleMove();
-            // }
+            if (!StaticVar.IsPaused)
+            {
+                PuzzleMove();
+            }
             batasWaktu -= Time.deltaTime;
         }
         else
