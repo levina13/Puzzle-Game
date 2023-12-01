@@ -8,6 +8,7 @@ TagManager:
   - puzzle
   - batas
   - PCI bus
+  - monitor
   layers:
   - Default
   - TransparentFX

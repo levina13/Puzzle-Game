@@ -15,9 +15,93 @@ EditorBuildSettings:
     path: Assets/Scenes/GameOver.unity
     guid: 2d6226e95dd80a84db346b4caab34bcd
   - enabled: 1
-    path: Assets/Scenes/puzzle.unity
-    guid: f358194481ba9eb4dacc83bff4362fbe
+    path: Assets/Scenes/lv1.unity
+    guid: 38f6eae6fdebd094f9eb0f2dd0abf026
   - enabled: 1
-    path: Assets/Scenes/YouWin.unity
+    path: Assets/Scenes/lv2.unity
+    guid: 6bbf0e9b4f9eea4448d6cb2ab9e03cc5
+  - enabled: 1
+    path: Assets/Scenes/lv3.unity
+    guid: 083411d18cf6c5d459e40f404862fec3
+  - enabled: 1
+    path: Assets/Scenes/lv4.unity
+    guid: b032098f2f95e4849b8938ba6b878b96
+  - enabled: 1
+    path: Assets/Scenes/lv5.unity
+    guid: acc5d9f50e038164d807ab94d6106c52
+  - enabled: 1
+    path: Assets/Scenes/lv6.unity
+    guid: f6f65315bfd5e064a854ea6e32813699
+  - enabled: 1
+    path: Assets/Scenes/lv7.unity
+    guid: cce0cb5c1ab0ae8469c91922cc4a6010
+  - enabled: 1
+    path: Assets/Scenes/lv8.unity
+    guid: 37cd6c36efeadf64589e1ce773251899
+  - enabled: 1
+    path: Assets/Scenes/lv9.unity
+    guid: aaa7df103b0219f4097dbdba9ccc0aca
+  - enabled: 1
+    path: Assets/Scenes/lv10.unity
+    guid: 0039c451cddda0142adc49042d75a5af
+  - enabled: 1
+    path: Assets/Scenes/lv11.unity
+    guid: b3d13b8952e757744b48c71e7f649850
+  - enabled: 1
+    path: Assets/Scenes/lv12.unity
+    guid: d9f0adb80566da84baa5a43f9847b979
+  - enabled: 1
+    path: Assets/Scenes/lv13.unity
+    guid: d62e82bf0196b3241bc2c9551a44e57b
+  - enabled: 1
+    path: Assets/Scenes/lv14.unity
+    guid: 5571b00cb02de2940a41f1215588d7e1
+  - enabled: 1
+    path: Assets/Scenes/lv15.unity
+    guid: 9a2e815f5f073b143b71943508f0af0e
+  - enabled: 1
+    path: Assets/Scenes/YouWin 1.unity
+    guid: f38b24edaaa7eec439063cc41b4171a1
+  - enabled: 1
+    path: Assets/Scenes/YouWin 2.unity
     guid: 80685bdcd0c994e4b969f1e5300c675c
+  - enabled: 1
+    path: Assets/Scenes/YouWin 3.unity
+    guid: 04aa4db10e11a794db628c012883c379
+  - enabled: 1
+    path: Assets/Scenes/YouWin 4.unity
+    guid: c667d0d09e3d24e4ab007ba7d4c01e75
+  - enabled: 1
+    path: Assets/Scenes/YouWin 5.unity
+    guid: 96bbbc6e812e6094dafa805e8f4be049
+  - enabled: 1
+    path: Assets/Scenes/YouWin 6.unity
+    guid: 5d90a818c35c5ea468a338d54b2f0da2
+  - enabled: 1
+    path: Assets/Scenes/YouWin 7.unity
+    guid: 41defd1df1feb6c43a2c60ff9fae6684
+  - enabled: 1
+    path: Assets/Scenes/YouWin 8.unity
+    guid: 3cb125ff92ea4774f8bc2c00108efd74
+  - enabled: 1
+    path: Assets/Scenes/YouWin 9.unity
+    guid: 0379ea85381980941a8de7a0a6664d4e
+  - enabled: 1
+    path: Assets/Scenes/YouWin 10.unity
+    guid: 1867bfd95aacd8445b62e057cc65963c
+  - enabled: 1
+    path: Assets/Scenes/YouWin 11.unity
+    guid: 7e8c4046c86a1184abe7bce901a225d6
+  - enabled: 1
+    path: Assets/Scenes/YouWin 12.unity
+    guid: b1daaf34b0905cd4e948e566621cc880
+  - enabled: 1
+    path: Assets/Scenes/YouWin 13.unity
+    guid: 546a9839df56e404b8432553d51fc829
+  - enabled: 1
+    path: Assets/Scenes/YouWin 14.unity
+    guid: a4ed3aa960dc01b4ca14aa6b6b016198
+  - enabled: 1
+    path: Assets/Scenes/YouWin 15.unity
+    guid: b7a04b2d845cbe3478a1a516e58cdef1
   m_configObjects: {}
