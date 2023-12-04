@@ -7,7 +7,9 @@ repository.
 
 this is the link for already built project:
 
-for this game, you just need to download the file, extract it, and run .exe file.
+[https://drive.google.com/file/d/1AvYIkiiYzu-ITswP87NzjPCcNa4cCAPe/view?usp=sharing]
+
+for this game, you just need to download the file, extract it, and run TUBES.exe file.
 
 ## Requirements
 
